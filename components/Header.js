@@ -27,14 +27,14 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <Link className="nav-link" href="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <Link className="nav-link" href="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
